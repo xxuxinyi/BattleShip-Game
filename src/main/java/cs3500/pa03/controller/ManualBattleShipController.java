@@ -109,6 +109,8 @@ public class ManualBattleShipController implements BattleShipController {
     }
   }
 
+
+
   /**
    * check the ship count for each player, and determine if this game is end or not
    *
@@ -132,4 +134,6 @@ public class ManualBattleShipController implements BattleShipController {
     }
     return gameEnd;
   }
+
+
 }
